@@ -22,14 +22,14 @@
 		229076C415D6D54200FEC672 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		229076C615D6D54200FEC672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		229076C815D6D54200FEC672 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		229076CC15D6D54200FEC672 /* GitExperiment-Info.plist */ = {isa = PBXFileReference; path = "GitExperiment-Info.plist"; sourceTree = "<group>"; };
+		229076CC15D6D54200FEC672 /* GitExperiment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitExperiment-Info.plist"; sourceTree = "<group>"; };
 		229076CE15D6D54200FEC672 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		229076D015D6D54200FEC672 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		229076D215D6D54200FEC672 /* GitExperiment-Prefix.pch */ = {isa = PBXFileReference; path = "GitExperiment-Prefix.pch"; sourceTree = "<group>"; };
-		229076D315D6D54200FEC672 /* GitExperimentAppDelegate.h */ = {isa = PBXFileReference; path = GitExperimentAppDelegate.h; sourceTree = "<group>"; };
+		229076D215D6D54200FEC672 /* GitExperiment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitExperiment-Prefix.pch"; sourceTree = "<group>"; };
+		229076D315D6D54200FEC672 /* GitExperimentAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitExperimentAppDelegate.h; sourceTree = "<group>"; };
 		229076D415D6D54200FEC672 /* GitExperimentAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitExperimentAppDelegate.m; sourceTree = "<group>"; };
 		229076D715D6D54200FEC672 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		229076D915D6D54200FEC672 /* GitExperimentViewController.h */ = {isa = PBXFileReference; path = GitExperimentViewController.h; sourceTree = "<group>"; };
+		229076D915D6D54200FEC672 /* GitExperimentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitExperimentViewController.h; sourceTree = "<group>"; };
 		229076DA15D6D54200FEC672 /* GitExperimentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitExperimentViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 

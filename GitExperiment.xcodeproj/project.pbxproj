@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220888C31609421400F95526 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220888C21609421400F95526 /* AVFoundation.framework */; };
+		220888CB16095D3A00F95526 /* Soothing.aif in Resources */ = {isa = PBXBuildFile; fileRef = 220888CA16095D3A00F95526 /* Soothing.aif */; };
+		220888CD160BF8FE00F95526 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 220888CC160BF8FE00F95526 /* apple.png */; };
+		2271883A160CBAE700D0F7F7 /* NatAmerFlute24s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22718839160CBAE700D0F7F7 /* NatAmerFlute24s.mp3 */; };
 		229076C515D6D54200FEC672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229076C415D6D54200FEC672 /* UIKit.framework */; };
 		229076C715D6D54200FEC672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229076C615D6D54200FEC672 /* Foundation.framework */; };
 		229076C915D6D54200FEC672 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229076C815D6D54200FEC672 /* CoreGraphics.framework */; };
@@ -18,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		220888C21609421400F95526 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		220888CA16095D3A00F95526 /* Soothing.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Soothing.aif; path = ../../../Resources/Sounds/Soothing.aif; sourceTree = "<group>"; };
+		220888CC160BF8FE00F95526 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = "../../../Resources/iOS Dev Program/apple.png"; sourceTree = "<group>"; };
+		22718839160CBAE700D0F7F7 /* NatAmerFlute24s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = NatAmerFlute24s.mp3; path = ../../../Resources/Sounds/NatAmerFlute24s.mp3; sourceTree = "<group>"; };
 		229076C015D6D54200FEC672 /* GitExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229076C415D6D54200FEC672 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		229076C615D6D54200FEC672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -38,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				220888C31609421400F95526 /* AVFoundation.framework in Frameworks */,
 				229076C515D6D54200FEC672 /* UIKit.framework in Frameworks */,
 				229076C715D6D54200FEC672 /* Foundation.framework in Frameworks */,
 				229076C915D6D54200FEC672 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +76,7 @@
 		229076C315D6D54200FEC672 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				220888C21609421400F95526 /* AVFoundation.framework */,
 				229076C415D6D54200FEC672 /* UIKit.framework */,
 				229076C615D6D54200FEC672 /* Foundation.framework */,
 				229076C815D6D54200FEC672 /* CoreGraphics.framework */,
@@ -82,6 +92,9 @@
 				229076D615D6D54200FEC672 /* MainStoryboard.storyboard */,
 				229076D915D6D54200FEC672 /* GitExperimentViewController.h */,
 				229076DA15D6D54200FEC672 /* GitExperimentViewController.m */,
+				22718839160CBAE700D0F7F7 /* NatAmerFlute24s.mp3 */,
+				220888CA16095D3A00F95526 /* Soothing.aif */,
+				220888CC160BF8FE00F95526 /* apple.png */,
 				229076CB15D6D54200FEC672 /* Supporting Files */,
 			);
 			path = GitExperiment;
@@ -151,6 +164,9 @@
 			files = (
 				229076CF15D6D54200FEC672 /* InfoPlist.strings in Resources */,
 				229076D815D6D54200FEC672 /* MainStoryboard.storyboard in Resources */,
+				220888CB16095D3A00F95526 /* Soothing.aif in Resources */,
+				220888CD160BF8FE00F95526 /* apple.png in Resources */,
+				2271883A160CBAE700D0F7F7 /* NatAmerFlute24s.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +291,7 @@
 				229076E015D6D54300FEC672 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

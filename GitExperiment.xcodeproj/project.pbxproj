@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		220888C31609421400F95526 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 220888C21609421400F95526 /* AVFoundation.framework */; };
-		220888CB16095D3A00F95526 /* Soothing.aif in Resources */ = {isa = PBXBuildFile; fileRef = 220888CA16095D3A00F95526 /* Soothing.aif */; };
-		220888CD160BF8FE00F95526 /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 220888CC160BF8FE00F95526 /* apple.png */; };
-		2271883A160CBAE700D0F7F7 /* NatAmerFlute24s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22718839160CBAE700D0F7F7 /* NatAmerFlute24s.mp3 */; };
 		229076C515D6D54200FEC672 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229076C415D6D54200FEC672 /* UIKit.framework */; };
 		229076C715D6D54200FEC672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229076C615D6D54200FEC672 /* Foundation.framework */; };
 		229076C915D6D54200FEC672 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229076C815D6D54200FEC672 /* CoreGraphics.framework */; };
@@ -19,13 +16,13 @@
 		229076D515D6D54200FEC672 /* GitExperimentAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 229076D415D6D54200FEC672 /* GitExperimentAppDelegate.m */; };
 		229076D815D6D54200FEC672 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229076D615D6D54200FEC672 /* MainStoryboard.storyboard */; };
 		229076DB15D6D54200FEC672 /* GitExperimentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 229076DA15D6D54200FEC672 /* GitExperimentViewController.m */; };
+		22C3CE601673DA7800132C9B /* NatAmerFlute24s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 22C3CE5E1673DA7800132C9B /* NatAmerFlute24s.mp3 */; };
+		22C3CE611673DA7800132C9B /* Soothing.aif in Resources */ = {isa = PBXBuildFile; fileRef = 22C3CE5F1673DA7800132C9B /* Soothing.aif */; };
+		22C3CE631673DAA400132C9B /* apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 22C3CE621673DAA400132C9B /* apple.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		220888C21609421400F95526 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		220888CA16095D3A00F95526 /* Soothing.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Soothing.aif; path = ../../../Resources/Sounds/Soothing.aif; sourceTree = "<group>"; };
-		220888CC160BF8FE00F95526 /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = "../../../Resources/iOS Dev Program/apple.png"; sourceTree = "<group>"; };
-		22718839160CBAE700D0F7F7 /* NatAmerFlute24s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = NatAmerFlute24s.mp3; path = ../../../Resources/Sounds/NatAmerFlute24s.mp3; sourceTree = "<group>"; };
 		229076C015D6D54200FEC672 /* GitExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229076C415D6D54200FEC672 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		229076C615D6D54200FEC672 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +36,9 @@
 		229076D715D6D54200FEC672 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		229076D915D6D54200FEC672 /* GitExperimentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitExperimentViewController.h; sourceTree = "<group>"; };
 		229076DA15D6D54200FEC672 /* GitExperimentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitExperimentViewController.m; sourceTree = "<group>"; };
+		22C3CE5E1673DA7800132C9B /* NatAmerFlute24s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = NatAmerFlute24s.mp3; path = ../NatAmerFlute24s.mp3; sourceTree = "<group>"; };
+		22C3CE5F1673DA7800132C9B /* Soothing.aif */ = {isa = PBXFileReference; lastKnownFileType = file; name = Soothing.aif; path = ../Soothing.aif; sourceTree = "<group>"; };
+		22C3CE621673DAA400132C9B /* apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = apple.png; path = ../apple.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,9 +92,9 @@
 				229076D615D6D54200FEC672 /* MainStoryboard.storyboard */,
 				229076D915D6D54200FEC672 /* GitExperimentViewController.h */,
 				229076DA15D6D54200FEC672 /* GitExperimentViewController.m */,
-				22718839160CBAE700D0F7F7 /* NatAmerFlute24s.mp3 */,
-				220888CA16095D3A00F95526 /* Soothing.aif */,
-				220888CC160BF8FE00F95526 /* apple.png */,
+				22C3CE621673DAA400132C9B /* apple.png */,
+				22C3CE5E1673DA7800132C9B /* NatAmerFlute24s.mp3 */,
+				22C3CE5F1673DA7800132C9B /* Soothing.aif */,
 				229076CB15D6D54200FEC672 /* Supporting Files */,
 			);
 			path = GitExperiment;
@@ -164,9 +164,9 @@
 			files = (
 				229076CF15D6D54200FEC672 /* InfoPlist.strings in Resources */,
 				229076D815D6D54200FEC672 /* MainStoryboard.storyboard in Resources */,
-				220888CB16095D3A00F95526 /* Soothing.aif in Resources */,
-				220888CD160BF8FE00F95526 /* apple.png in Resources */,
-				2271883A160CBAE700D0F7F7 /* NatAmerFlute24s.mp3 in Resources */,
+				22C3CE601673DA7800132C9B /* NatAmerFlute24s.mp3 in Resources */,
+				22C3CE611673DA7800132C9B /* Soothing.aif in Resources */,
+				22C3CE631673DAA400132C9B /* apple.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

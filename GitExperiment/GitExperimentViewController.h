@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface GitExperimentViewController : UIViewController
+
+@interface GitExperimentViewController : UIViewController <AVAudioPlayerDelegate>
+
+@property (strong) AVAudioPlayer *myAudioPlayer;
+
+
+- (IBAction)displayAlert:(id)sender;
 
 @end

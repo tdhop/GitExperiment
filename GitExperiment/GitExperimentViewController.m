@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-// ADDING A COMMENT HERE TO SEE IF GIT PICKS IT UP
+// ADDING A COMMENT HERE TO SEE IF GIT PICKS IT UP - Tim is adding something here
 
 
 #import "GitExperimentViewController.h"

@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-// ADDING A COMMENT HERE TO SEE IF GIT PICKS IT UP - Tim is adding something here.  So this is what merge is all about.  Tim is adding a conflicting change here.
+// ADDING A COMMENT HERE TO SEE IF GIT PICKS IT UP - Tim is adding something here.  So this is what merge is all about. Mark is adding a conflicting change here.
 
 
 #import "GitExperimentViewController.h"
